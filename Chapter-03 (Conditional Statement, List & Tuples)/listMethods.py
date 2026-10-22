@@ -1,0 +1,16 @@
+
+marks = [95,100,85,80,75,90]
+print("Max number is: ", max(marks))
+print("Min number is: ", min(marks))
+marks.sort()
+print("Sorted in ascending order-> ",marks)
+marks.pop(0)
+print("Removes nth index value-> ",marks)
+marks.insert(0,79)
+print("Insert a value in nth index-> ",marks)
+marks.remove(100)
+print("Removes a specific number-> ",marks)
+marks.append(100)
+print("Adds a specific number-> ",marks)
+marks.reverse()
+print("Reverse the array elements-> ", marks)
